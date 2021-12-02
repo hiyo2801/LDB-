@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDB Contacto</title>
+    <meta name="description" content="Realizamos todo tipo de arreglos. comunicate con nosotros y obtendrás respuesta inmediata y trato personalizado.">
+    <meta name="keywords"  content="INSTRUMENTOS, REPARACIÓN, LUTHIER, CALIBRACIÓN, CONTACTO">
+    <!------- Enlace externo CSS-->
+<link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <!------- Inicio Encabezado ------->
+    <!------- ------------------- ------->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img class="logini" src="img/logos/Logo-3.png" alt=""></a>
+        </div>
+            <nav class="navegacion">
+                <ul class="menuPrincipal">
+                    <li><a href="Taller.html">Taller</a></li>
+                    <li><a href="">Guitarras</a>
+                        <ul class="subGuitarras">
+                            <li><a href="Guitarras.html">Nuestra Galería</a>
+                            <li><a href="https://www.fender.com/es/start" target="_blank">Fender</a></li>
+                            <li><a href="https://www.gibson.com/en-US/" target="_blank">Gibson</a></li>
+                            <li><a href="https://www.ibanez.com/na/" target="_blank">Ibanez</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Bajos.html">Bajos</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!------- Fin de Encabezado ------->
+    <!------- ------------------- ------->
+<section class="datos">
+    <div class="datosPerso">
+        <form action="Enviar.php" method="post">
+            <fieldset> <legend>Dejanos tus datos</legend>
+                <strong>Nombre</strong> <input type="text">
+                <strong>Apellido</strong> <input type="text"><br><br>
+                Contacto <input type="email" required placeholder="Ingresa tu E-mail">
+                Teléfono <input type="text" placeholder="+054 11"><br><br>
+                <h3>Selecciona tu genero</h3>
+                    <label for="sexo">genero:</label>
+                    Hombre<input type="radio" name="sexo" value="hombre" id="sexo"><br>
+                    Mujer<input type="radio" name="sexo" value="mujer" id="sexo"><br>
+                    Sin especificar<input type="radio" name="sexo" value="sin especificar" checked><br><br>
+                Adjuntanos una foto <input type="file"><br><br>
+                <textarea name="Comentario" id="" cols="30" rows="10" placeholder="Esctibí tu consulta"></textarea>
+            </fieldset>
+    </div><br><br>
+            <fieldset class="encuesta"><legend>Contesta una breve encuesta</legend>
+                <label for="Motivo">Cual es el motivo de tu consulta</label><br>
+                    Reparaciones <input type="checkbox"><br>
+                    Fabricación <input type="checkbox"><br>
+                    Capacitacion <input type="checkbox"><br>
+                    <p>Que instruo usas:</p> 
+                    <select name="Instrumento">                        
+                        <option>Guitarras</option>
+                        <option>Bajos</option>
+                        <option>Otros</option>
+                    </select>
+            </fieldset>
+                <br>
+        <input type="submit" value="Envíar Comentario">
+        <input type="reset" value="Reestablecer"><br>
+        <input type="button" value="Guarda tu consulta"><br>                    
+        </form>
+    </section>
+</body>
+</html>

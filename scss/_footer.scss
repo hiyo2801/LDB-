@@ -1,0 +1,25 @@
+.footer--prop{
+    height: 250px;
+    width: auto;
+    background-color:rgba(102, 97, 97, 0.829);
+    background-size: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.footer__derechos--prop{
+    text-align-last:right;
+    margin-top: 25px;
+    top: 90%;
+    left: 50%;
+}
+.footer__redes--prop{
+font-size: 50px;
+display: flex;
+flex-flow: column;
+justify-content: space-evenly;
+}
+.footer__mapa-prop{
+order: 1;
+margin: 50px;
+}
