@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&display=swap");
+
+$font_navbar:'Boogaloo', cursive;
+$font_text:'Sarabun', sans-serif;
+$font_forms:'Open Sans Condensed', sans-serif;
+$font_ldb: 'Libre Baskerville', 'serif';
+
+* {
+/*reseteo de los margentes*/
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+h1{
+    font-family: $font_ldb;
+    color:white ;
+    font-size: 50px;
+}
+h2{
+    font-family: $font_ldb;
+    font-size: 30px;
+    font-style:oblique;
+    margin: 10px;
+    color: red;
+}
