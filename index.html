@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,37 +10,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <!------- Enlace externo CSS-->
-<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="sass/estilos.css">
 </head>
 <body>
     <!------- Inicio Encabezado ------->
     <!------- ------------------- ------->
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-            <div class="container-fluid"></div>
-                <a class="navbar-brand" href="index.html"><img class="logini" src="img/logos/Logo-3.png" class="img-fluid" width="80px" height="80px" alt="LDB-Logo"></a>
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-            <div class="navbar-collapse collapse" id="navbarNav" style="">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="Taller.html">Taller</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Guitarras</a>
-                <ul class="subGuitarras">
-                    <li><a href="Guitarras.html">Nuestra Galería</a>
-                    <li><a href="https://www.fender.com/es/start" target="_blank">Fender</a></li>
-                    <li><a href="https://www.gibson.com/en-US/" target="_blank">Gibson</a></li>
-                    <li><a href="https://www.ibanez.com/na/" target="_blank">Ibanez</a></li>
-                </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="Bajos.html">Bajos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formulario">Comunicate</a></li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-secondary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="img/logos/Logo-5.png" class="img-fluid"
+						width="100px" height="100px" alt=""></a>
+                        <h1>LDB</h1>
+                        <h2 class="h3Camperas wow animate__animated animate__backInLeft">Calibraciones & Luthier</h2>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item itContact">
+							<a class="nav-link" href="Nosotros.html">Nosotros</a>
+						</li>
+                        <li class="nav-item itContact">
+							<a class="nav-link" href="Galeria.html">Galería</a>
+						</li>
+						<li class="nav-item itContact">
+							<a class="nav-link" href="contacto.html">Contacto</a>
+						</li>
+                        <li class="nav-item itContact">
+							<a class="nav-link" href="Venta.html">Venta</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Sitios Recomendados
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li class="itContact"><a class="dropdown-item" href="https://www.fender.com/es/start" target="_blank">Fender</a></li>
+								<li class="itContact"><a class="dropdown-item" href="https://www.gibson.com/en-US/guitars/les-paul" target="_blank">Gibson</a></li>
+								<li class="itContact"><a class="dropdown-item" href="https://www.ibanez.com/na/" target="_blank">Ibanez</a></li>
+								<li class="itContact"><a class="dropdown-item" href="https://www.jacksonguitars.com/en/start" target="_blank">Jackson</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
     </header>
     <!------- Fin de Encabezado ------->
     <!-------  Carrusel -------->
@@ -74,136 +93,105 @@
     </div>
 </div>
     <!-- Sección principal -->
-    <main class="principal">
-        <article class="articulouno">
-                <h2>Calibraciones</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusantium quisquam itaque fugit aliquam nostrum ad vero dolores repudiandae, mollitia in iure minima veritatis. Aspernatur odit distinctio quasi debitis dolore.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusantium quisquam itaque fugit aliquam nostrum ad vero dolores repudiandae, mollitia in iure minima veritatis. Aspernatur odit distinctio quasi debitis dolore.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusantium quisquam itaque fugit aliquam nostrum ad vero dolores repudiandae, mollitia in iure minima veritatis. Aspernatur odit distinctio quasi debitis dolore.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus accusantium quisquam itaque fugit aliquam nostrum ad vero dolores repudiandae, mollitia in iure minima veritatis. Aspernatur odit distinctio quasi debitis dolore.
+    <!-- ----------------- -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <article class="articuloUno">
+                <h2 class="text-center">Calibración y Puesta a punto para Guitarras y Bajos eléctricos</h2>
+                    <p class="text-center">
+                    Cada calibre de encordado le ofrece al instrumento una distinta
+                    fuerza para lo cual el mismo debe estar bien ajustado,
+                    también
+                    la altura de las cuerdas suele variar así como tensión en resortes
+                    del vibrato en guitarras comunes,
+                    en guitarras con floyd la cosa se complica aun mas,
+                    por eso la importancia de la calibración
+                    cuando cambiamos el calibre de cuerdas
                     </p>
-        </article>
-            <article class="articulodos">
-                <h2>Restauracion</h2>
-                    <pre class="textoArt">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Repellat, illum magni
-                        voluptas corrupti provident mollitia,
-                        dolores tempore veniam fugit non doloribus
-                        obcaecati repellendus aperiam quod architecto
-                        perspiciatis nemo recusandae! Ab.
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Repellat, illum magni
-                        voluptas corrupti provident mollitia,
-                        dolores tempore veniam fugit non doloribus
-                        obcaecati repellendus aperiam quod architecto
-                        perspiciatis nemo recusandae! Ab.
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Repellat, illum magni
-                        voluptas corrupti provident mollitia,
-                        dolores tempore veniam fugit non doloribus
-                        obcaecati repellendus aperiam quod architecto
-                        perspiciatis nemo recusandae! Ab.
-                    </pre>
             </article>
-    </main>
-    <section class="seccionPie">
-        <form class="formulario" id="formulario" action="Enviar.php" method="post">
-            <fieldset> <legend>Dejanos tus datos</legend>
-                <strong>Nombre</strong> <input type="text"><br>
-                <strong>Apellido</strong> <input type="text"><br>
-                Contacto <input type="email" required placeholder="Ingresa tu E-mail"><br>
-                Teléfono <input type="text" placeholder="+054 11"><br>
-                <label for="sexo">genero:</label>
-                    Hombre<input type="radio" name="sexo" value="hombre" id="sexo"><br>
-                    Mujer<input type="radio" name="sexo" value="mujer" id="sexo"><br>
-                    Sin especificar<input type="radio" name="sexo" value="sin especificar" checked><br><br>
-                Adjuntanos una foto <input type="file"><br><br>
-                <textarea name="Comentario" id="" cols="30" rows="10" placeholder="Esctibí tu consulta"></textarea>
-            </fieldset>
-            <fieldset class="encuesta">
-                <label for="Motivo">Cual es el motivo de tu consulta</label><br>
-                    Reparaciones <input type="checkbox"><br>
-                    Fabricación <input type="checkbox"><br>
-                    Capacitacion <input type="checkbox"><br>
-                    <p>Que instrumento usas:</p>
-                    <div class="dropdown">
-                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                        Seleciona tu instrumento
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <article class="articuloDos">
+                <h2 class="text-center">Consejos clave para el mantenimiento de instrumentos musicales</h2>
+                    <p class="textoArt">
+                    La forma en que transportamos nuestro instrumento debe ser
+                    lo más cómoda y segura posible y siempre con cuidado y
+                    delicadeza.
+
+                    Hay que intentar que no haya demasiada holgura
+                    en la funda que utilicemos, que esté compacto y bien acolchado.
+                    De esta manera tendremos más posibilidades de mantenerlo intacto
+                    en caso de que se produzca alguna caída.
+                    Mucha gente apuesta por estuches para instrumentos musicales
+                    muy ligeros por una cuestión de peso,
+                    pero no siempre son la mejor opción si para ello hay que
+                    sacrificar la seguridad del instrumento.
+                    </p>
+            </article>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <section class="seccionPie">
+                <h3 class="text-center">Reparación de instrumentos musicales</h3>
+                <article class="recomendado">
+                    <p class="text-left">
+                    En muchas ocasiones, un mal mantenimiento, un mal uso del instrumento
+                    o simplemente el inevitable deterioro debido al paso de los años,
+                    puede provocar problemas en nuestros instrumentos musicales.
+                    Por suerte, igual que sucede con los coches, las reparaciones de
+                    instrumentos musicales, son algo frecuente y habitual, que en la
+                    gran mayoría de los casos merece la pena, debido al precio de los
+                    instrumentos y al cariño que se los coje.
+                    Por ello, confiar en un profesional es siempre una de las opciones
+                    más sensatas, y es aquí donde aparece la figura del luthier o del
+                    reparador de instrumentos, según el tipo de instrumentos musicales
+                    con el que trabajen. <br>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                            Video Recomendado
                         </button>
-                        <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Guitarra</a>
-                        <a class="dropdown-item" href="#">Bajo</a>
-                        <a class="dropdown-item" href="#">Otros</a>
+                    <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                        <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Reparación</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                        <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <iframe class="youtube" src="https://www.youtube.com/embed/rLUa74DmIsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                        <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-            </fieldset>
-                <br>
-        <input type="submit" value="Envíar Comentario">
-        <input type="reset" value="Reestablecer"><br>
-        <input type="button" value="Guarda tu consulta"><br>
-        </form>
-        <div class="tiVide">
-        <h3 class="videoRec">Consejo de la semana</h3>
-        </div>
-        <article class="recomendado">
-            <pre>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Sunt repudiandae maiores exercitationem, dolor placeat
-            velit obcaecati similique voluptas vitae nesciunt facilis,
-            iste neque facere commodi omnis autem cumque. Illum, magnam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-            suscipit minus dignissimos earum in vel praesentium saepe
-            odit dicta obcaecati,
-            explicabo commodi aperiam! Eveniet, obcaecati quo! Optio
-            molestias facere itaque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus deserunt vitae officiis eos esse natus porro,
-            perferendis, animi sint expedita, at corporis eveniet dignissimos amet temporibus
-            soluta magni? Dolor, corporis?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur repellendus
-            ipsa? Maiores provident eaque accusantium eos sint officiis laudantium esse ducimus,
-            est necessitatibus. Omnis sed tempora ad similique iste.
-            </pre>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Guia practica
-            </button>
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title">Luthería</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <iframe class="youtube" src="https://www.youtube.com/embed/OlNDEsWXvfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
+                    </p>
+                </article>
+                <div class="multimedia">
+                    <audio class="audio" src="/sound/pista11.MP3" preload autoplay controls></audio>
                 </div>
-                </div>
-            </div>
-        </article>
-        <div class="multimedia">
-            <audio class="audio" src="/sound/pista111.MP3" preload autoplay controls></audio>
+            </section>
         </div>
-    </section>
-    <footer>
-            <p class="derechos">@2021 - Todos los derechos reservados</p>
-            <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.329298682151!2d-58.397793286800166!3d-34.747296772612074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd34e68f2151d%3A0x1e2c8e8a3355f136!2sPlaza!5e0!3m2!1ses-419!2sar!4v1634748503305!5m2!1ses-419!2sar"></iframe>
-        </div>
-        <div class="redesSociales">
-            <i class="fab fa-whatsapp"></i>
-            <i class="fab fa-facebook-square"></i>
-            <a href="https://www.instagram.com/ldb_calibraciones/"><i class="fab fa-instagram-square"></i></a>
-        </div>
+    </div>
+    <footer class="footer">
+        <div class="container-fluid">
+			<p>Seguinos en nuestras redes</p>
+			<a class="footer__instagram " href="https://www.instagram.com/ldb_calibraciones/" target="_blank"><img src="img/logos/instagram.svg" width="38px" height="38x"></a>
+			<a class="footer__facebook " href="https://www.facebook.com/ldbluthier" target="_blank"><img src="img/logos/facebook.svg" width="50px" height="50px"></a>
+			<a class="footer_whatsapp" href="https://wa.me/5491155688742?text=Hola%20LDB" target="_blank"><img src="img/logos/whatsapp.svg" width="38px" height="38px"></a>
+            <div id="copyright">Copyright&copy; 2021 - Página creada por Cristian Acevedo - Todos los derechos reservados</div>
+		</div>
     </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script></body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
