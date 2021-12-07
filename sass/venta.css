@@ -26,4 +26,231 @@ h2 {
   margin: 10px;
   color: red;
 }
+
+.mainVenta {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(92, 8, 8, 0.959)), color-stop(rgba(114, 5, 5, 0.849)), to(rgba(58, 54, 54, 0.664)));
+  background-image: linear-gradient(to top, rgba(92, 8, 8, 0.959), rgba(114, 5, 5, 0.849), rgba(58, 54, 54, 0.664));
+  background-position: left;
+  background-size: cover;
+  height: auto;
+  overflow: hidden;
+  border: 3px solid #000c06;
+  border-bottom: 1, 1px;
+  padding-bottom: 1%;
+}
+
+.mainVenta h3 {
+  text-align: center;
+}
+
+.fondo {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 1%;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.itemVen {
+  min-height: 200px;
+  min-width: 200px;
+  border: 5px solid #e6d0d0;
+}
+
+.itemVen:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-filter: saturate(2);
+          filter: saturate(2);
+  -webkit-filter: contrast(1.3);
+          filter: contrast(1.3);
+  -webkit-box-shadow: 5px 5px 10px 1px #422121;
+          box-shadow: 5px 5px 10px 1px #422121;
+}
+
+.itemVen1 {
+  grid-area: "itemVen1";
+  background-image: url(../img/Venta/venta1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemVen2 {
+  grid-area: "itemVen2";
+  background-image: url(../img/Venta/venta2.jpg);
+  background-size: cover;
+}
+
+.itemVen3 {
+  grid-area: "itemVen3";
+  background-image: url(../img/Venta/venta3.jpg);
+  background-size: cover;
+}
+
+.itemVen4 {
+  grid-area: "itemVen4";
+  background-image: url(../img/Venta/venta4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.itemVen5 {
+  grid-area: "itemVen5";
+  background-image: url(../img/Venta/venta5.jpg);
+  background-size: cover;
+}
+
+.itemVen6 {
+  grid-area: "itemVen6";
+  background-image: url(../img/Venta/venta6.jpg);
+  background-size: cover;
+  -webkit-filter: brightness(1.3);
+          filter: brightness(1.3);
+}
+
+@media only screen and (min-width: 360px) {
+  .fondo {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .fondo {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.itemVen {
+  min-height: 200px;
+  min-width: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fondo {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.itemVen1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.itemVen4 {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.itemVen2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+  background-position: center;
+}
+
+.itemVen6 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+@media only screen and (min-width: 1200px) {
+  .fondo {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.itemVen1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 8;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.itemVen4 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 8;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+}
+
+.itemVen2 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  background-position: center;
+}
+
+.itemVen6 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 8;
+}
+
+.itemVen5 {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 2;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 8;
+}
+
+.footer {
+  background: #bdc486;
+  background-color: #470505d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  text-align: center;
+  font-family: 'Boogaloo', cursive;
+  font-size: 1rem;
+  color: black;
+  padding-bottom: 0.6rem;
+  text-transform: uppercase;
+}
+
+.footer img {
+  margin-bottom: 0.6rem;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.footer img:hover {
+  -webkit-transform: scale(1.18);
+  transform: scale(1.18);
+}
+
+.footer p {
+  color: #be7575;
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+#copyright {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 0.8rem;
+  color: #be7575;
+  text-transform: none;
+}
 /*# sourceMappingURL=venta.css.map */
