@@ -61,7 +61,7 @@ p {
   color: #e9e0e0;
   font-size: 20px;
   border-radius: 10px;
-  margin: 5px 5px;
+  padding: 10px;
 }
 
 .articuloDos {
@@ -81,6 +81,7 @@ p {
   color: #e9e0e0;
   font-size: 20px;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .seccionPie {
@@ -111,6 +112,14 @@ p {
   border-radius: 10px;
 }
 
+.recomendado p {
+  background-color: rgba(105, 18, 18, 0.788);
+  color: #e9e0e0;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .recomendado button {
   font-size: 20px;
   font-family: sans-serif;
@@ -126,8 +135,8 @@ p {
 }
 
 .modal-content {
-  height: 600px;
-  width: 800px;
+  height: 500px;
+  width: 600px;
 }
 
 .multimedia {

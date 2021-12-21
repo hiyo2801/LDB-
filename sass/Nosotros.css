@@ -29,7 +29,7 @@ h2 {
 
 .main {
   background-color: rgba(75, 4, 4, 0.836);
-  background-image: url(../img/nosotros/nosotros.PNG);
+  background-image: url(../img/nosotros/nosotros1.PNG);
   background-position: center;
   background-size: cover;
   height: auto;
@@ -39,10 +39,15 @@ h2 {
   padding-top: 2%;
 }
 
-pre {
+.explication {
   text-align: end;
   color: white;
   padding: 2%;
+}
+
+.steps {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white;
 }
 
 .footer {

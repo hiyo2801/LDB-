@@ -64,7 +64,7 @@ p{
         color: rgb(233, 224, 224);
         font-size: 20px;
         border-radius: 10px;
-        margin: 5px 5px;
+        padding: 10px;
     }
 }
 //articulo dos
@@ -79,10 +79,11 @@ p{
     background-position: center;
     background-size: cover;
     p{
-            background-color: rgba(105, 18, 18, 0.788);
-            color: rgb(233, 224, 224);
-            font-size: 20px;
+        background-color: rgba(105, 18, 18, 0.788);
+        color: rgb(233, 224, 224);
+        font-size: 20px;
         border-radius: 10px;
+        padding: 10px;
     }
 }
 
@@ -111,28 +112,16 @@ p{
         width: 40%;
         margin: auto;
         border-radius: 10px;
-        button{
+        p{
+            background-color: rgba(105, 18, 18, 0.788);
+            color: rgb(233, 224, 224);
             font-size: 20px;
-            font-family: sans-serif;
-            justify-content: center;
-            border: 5px solid red;
-            }
-    }
-        .recomendado .youtube{
-            height: 300px;
-            width: 500px;
+            border-radius: 10px;
+            padding: 10px;
         }
-
-.modal-content{
-    height: 600px;
-    width: 800px;
-}
-    .multimedia{
-        grid-column: 2/3;
-        grid-row: 3/4;
-        align-self: center;
-        justify-self: center;
-    }
+        a{
+            font-family: $font_forms;
+        }
 
 
 // importar footer
